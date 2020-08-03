@@ -1,0 +1,9 @@
+Heading Tags - h1 to h6
+Meta tags - DOCTYPE, title ,link, style
+Text Tags - <p>, <h1> to h<6>, <strong>, <em>..
+Link Tag - <a> 
+Image and Object - <image>, <object>, <area>
+List Tags - <ul> <ol> <li>
+Table tags - table, tr, td, th 
+Form Tags - form, Input, textarea, select, button 
+Script tags - Script, noscript
