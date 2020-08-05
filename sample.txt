@@ -4,6 +4,31 @@ Text Tags - <p>, <h1> to h<6>, <strong>, <em>..
 Link Tag - <a> 
 Image and Object - <image>, <object>, <area>
 List Tags - <ul> <ol> <li>
-Table tags - table, tr, td, th 
+HTML CSS - Applying CSS to HTML elements
+Table tags - table, tr, td, th, thead, tbody
 Form Tags - form, Input, textarea, select, button 
 Script tags - Script, noscript
+Inline and block-level elements
+Hiding and unhiding elements using display property
+
+
+CSS - Cascading Style Sheet - Format the layout of webpage
+    - we can control color, font, size , position element, background, background images, bg color
+
+CSS - can be added to TML document in 3 ways
+
+1. Inline - use style attribute inside HTML elements 
+2. Internal - <style></style> element in head section of HTML
+3. External - <link> element to link an external CSS file
+
+HTML Forms
+
+When we want to collect some data from user. 
+
+1. Text Input Control - Single-line, password, multi-line
+2. Checkbox Control
+3. Radiobutton Control
+4. Select Control
+5. File Control
+6. Hidden Control
+7. Button Controls

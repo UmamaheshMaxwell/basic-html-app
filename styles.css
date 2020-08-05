@@ -1,0 +1,25 @@
+#h1id {
+    color:yellowgreen
+}
+.header {
+    color:red;
+}
+p {
+    color: navy;
+}
+
+table, tr, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+/* cell padding : specifies the space between cell content and its border*/
+th, td {
+    padding: 15px;
+}
+
+/* text align : aligns your text for e.g left, right, center */
+
+th {
+    text-align: left;
+}
