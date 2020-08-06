@@ -1,15 +1,78 @@
 <html>
     <head>
         <title>HTML Forms</title>
+
     </head>
     <body>
         <form>
-            FirstName : <input type="text" name="fname" /> <br> <br>
-            LastName : <input type="text" name="lname" /> <br> <br>
-            Password : <input type="password" name="password"> <br> <br>
-            Description : <textarea name="description" id="txtDescription" cols="75" rows="25">
+            
+            <label for="firstName">FirstName : </label><input type="text" name="fname" id="firstName" /> <br> <br>
+            <label for="lastName">LastName : </label><input type="text" name="lname" id="lastName" /> <br> <br>
+            <label for="password">Password : </label><input type="password" name="password" id="password"> <br> <br>
+            <label for="txtDescription">Password : </label><textarea 
+                                name="description" 
+                                id="txtDescription" 
+                                cols="25" 
+                                rows="5"
+                               >Hello everybody how are you ?
+                            </textarea> <br><br>
+            <!--Checkbox Input controls-->             
+            <label>Select all relevent subjects : </label> 
+            <input 
+                type="checkbox" 
+                name="csharp" 
+                value="csharp" 
+                id="chkCsharp"> CSharp
 
-            </textarea>
+            <input 
+                type="checkbox" 
+                name="javascript" 
+                value="javascript" 
+                id="chkjavaScript"> JavaScript
+
+            <input 
+                type="checkbox" 
+                name="angular" 
+                value="angular" 
+                id="chkAngular"> Angular
+            
+            <input 
+                type="checkbox" 
+                name="nodejs" 
+                value="nodejs" 
+                id="chkNodeJs"> Node JS
+            <br><br>
+            <!--Radio Button Input controls--> 
+            <label>Select any one Subject : </label>
+            <input 
+                type="radio" 
+                name="subject" 
+                value="maths" 
+                id="rbtnMaths"> Maths
+            <input type="radio" name="subject" value="phisics" id="rbtnPhysics"> Physics
+            <input type="radio" name="subject" value="chemistry" is ="rbtnChemistry"> Chemistry
+            <br><br>
+            <!--Select Input controls--> 
+            <label>List of Subjects : </label>
+            <select name="dropdown">
+                <option value="all" selected>All</option>
+                <option value="csharp">Csharp</option>
+                <option value="nodejs">Node Js</option>
+                <option value="angular">Angular</option>
+                <option value="rectjs">ReactJS</option>
+            </select>
+            <br><br>
+            <!--File control--> 
+            <label>Select any File : </label>
+            <input type="file" name="upload" />
+            <br><br>
+            <!--Button Control-->
+            <input type="button" name="Submit" value="Submit" />
+            <input type="submit" name="Submit" value="Submit" />
+            <input type="image" name="imageButton" style="width: 50px; height: 50px;" src="images/Laptop.jpg" />
+
+            <!--Hidden Input Control-->
+            <input type="hidden" name="userid" id="hdnUserId" value="100"/>
         </form>
     </body>
 </html>

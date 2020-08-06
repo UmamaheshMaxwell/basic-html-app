@@ -10,10 +10,12 @@ Form Tags - form, Input, textarea, select, button
 Script tags - Script, noscript
 Inline and block-level elements
 Hiding and unhiding elements using display property
+Label vs Span 
 
 
 CSS - Cascading Style Sheet - Format the layout of webpage
-    - we can control color, font, size , position element, background, background images, bg color
+    - we can control color, font, size , position element, 
+      background, background images, background color
 
 CSS - can be added to TML document in 3 ways
 
