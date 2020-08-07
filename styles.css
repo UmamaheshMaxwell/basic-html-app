@@ -1,4 +1,4 @@
-#h1id {
+/* #h1id {
     color:yellowgreen
 }
 .header {
@@ -11,15 +11,38 @@ p {
 table, tr, th, td {
     border: 1px solid black;
     border-collapse: collapse;
-}
+} */
 
 /* cell padding : specifies the space between cell content and its border*/
-th, td {
+/* th, td {
     padding: 15px;
 }
 
 /* text align : aligns your text for e.g left, right, center */
 
-th {
+/*th {
     text-align: left;
-}
+} */
+
+.city {
+    background-color: red;
+    color: white;
+    margin: 20px; 
+    padding: 20px;
+    border: 2px solid black;
+ }
+ #divMessage {
+     color:blue
+ }
+ #pMessage {
+     color: coral;
+ }
+ .userClass {
+     color:darkgreen;
+     font-family: "Verdana, Geneva, Tahoma, sans-serif";
+     font-size: large;
+
+ }
+ .hClass {
+     color: coral;
+ }

@@ -11,6 +11,13 @@ Script tags - Script, noscript
 Inline and block-level elements
 Hiding and unhiding elements using display property
 Label vs Span 
+HTML DOM
+Video and Audio Tags
+HTML Class
+HTML Responsive Design 
+Drag and Drop API 
+Graphic and Canvas  
+
 
 
 CSS - Cascading Style Sheet - Format the layout of webpage
@@ -34,3 +41,4 @@ When we want to collect some data from user.
 5. File Control
 6. Hidden Control
 7. Button Controls
+
