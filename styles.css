@@ -46,3 +46,82 @@ table, tr, th, td {
  .hClass {
      color: coral;
  }
+
+ article {
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+
+article > p {
+    color: crimson;
+}
+
+article > p > span {
+    color: darkgreen;
+    font-style:italic;
+}
+aside {
+    background-color: grey;
+    float: right;
+    font-style: italic;
+    padding-left: 15px;
+    margin-left: 15px;
+    width: 30%;
+}
+
+details > summary {
+    padding: 4px;
+    width: 200px;
+    background-color: #eeeeee;
+    border: none;
+    box-shadow: 1px 1px 2px #bbbbbb;
+    cursor: pointer;
+}
+
+details > p{
+    background-color: #eeeeee;
+    padding: 4px;
+    margin: 0px;
+    box-shadow: 1px 1px 2px #bbbbbb;
+}
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+}
+
+img {
+   max-width: 220px; 
+   max-height: 150px;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: "italic smaller sans-serif";
+    padding: 3px;
+    text-align: center;
+}
+
+article {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: "auto 1fr autos";
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #45a1ff;
+    color: #fff;
+}
+p {
+    color: blue;
+}

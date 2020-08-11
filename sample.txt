@@ -24,7 +24,7 @@ CSS - Cascading Style Sheet - Format the layout of webpage
     - we can control color, font, size , position element, 
       background, background images, background color
 
-CSS - can be added to TML document in 3 ways
+CSS - can be added to HTML document in 3 ways
 
 1. Inline - use style attribute inside HTML elements 
 2. Internal - <style></style> element in head section of HTML
@@ -42,3 +42,38 @@ When we want to collect some data from user.
 6. Hidden Control
 7. Button Controls
 
+HTML <meta> Tag
+
+1. Chracter Set - sepcifies the chacter encoding for HTML (UTF-8 , ISO-8859-1)
+2. Description of the webpage
+3. Keywords
+4. author of the document
+5. Viewport Setting
+6. Refresh 
+
+Non-Semantic Elements - Tells nothing about its content
+
+<div>
+<span>
+<p>
+
+Semantic Elements - Clearly defines its content
+
+<article>
+<aside>
+<details>
+<figure>
+<footer>
+<header>
+<main>
+<mark>
+<nav>
+<section>
+<summary>
+<time>
+<figcaption>
+<form>
+<table>
+
+div
+div 
